@@ -27,11 +27,11 @@ php ./src/db/createDatabase.php
 ```
 5. Migration table
 ```
-php ./vendor/bin/phinx migrate -e development
+./vendor/bin/phinx migrate -e development
 ```
 6. Seeder table
 ```
-php ./vendor/bin/phinx seed:run -s TTransactionSeeder
+./vendor/bin/phinx seed:run -s TTransactionSeeder
 ```
 7. Run server
 ```
